@@ -1,4 +1,4 @@
-window.onload = function() {
+
     if (window.jQuery) {
       $(".open-overlay").click(function() {
         $(".open-overlay").css("pointer-events", "none");
@@ -72,6 +72,3 @@ window.onload = function() {
           });
         }
       });
-
-      console.log($);
-    }
